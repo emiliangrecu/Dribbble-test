@@ -12,3 +12,5 @@ abcd
 123456
 qwerty
 schimbare
+
+123456
