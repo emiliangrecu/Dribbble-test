@@ -90,7 +90,6 @@ namespace DribbbleTest.Pages
             {
                 return false;
             }
-
         }
 
         public bool AreLikesAndViewsDisplayed()

@@ -15,6 +15,7 @@ namespace DribbbleTest.Pages
         IWebElement passwordInput => driver.FindElement(By.CssSelector("#password"));
         IWebElement signInButton => driver.FindElement(By.CssSelector(".button.form-sub"));
         private readonly By uploadButton = By.XPath("//a[contains(text(),'Upload')]");
+
         public void GoToLoginPage()
         {
             driver.Navigate().GoToUrl(Constants.LoginUrl);
